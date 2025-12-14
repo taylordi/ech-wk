@@ -1,7 +1,7 @@
 #!/bin/sh
 # ech-wk OpenWrt 自动安装脚本，支持自动获取最新版本
 
-REPO_OWNER="byJoey"
+REPO_OWNER="taylordi"
 REPO_NAME="ech-wk"
 BIN_PATH="/usr/bin/ech-workers"
 TMP_DIR="/tmp/ech-workers"
