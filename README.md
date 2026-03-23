@@ -380,9 +380,21 @@ $env:HTTPS_PROXY="socks5://127.0.0.1:30001"
 勾选"开机启动"复选框，程序会在系统启动时自动运行并启动代理。
 
 ## 🛣️ 软路由部署
-
+### 图形化推荐
+https://github.com/SunshineList/luci-app-ech-workers
 ### OpenWrt 部署
+### 一键脚本
+```bash
 
+wget https://raw.githubusercontent.com/byJoey/ech-wk/refs/heads/main/softrouter.sh
+chmod +x softrouter.sh
+./softrouter.sh
+```
+```bash
+
+#后续使用只需要这一行
+./softrouter.sh
+```
 #### 1. 上传文件
 
 ```bash

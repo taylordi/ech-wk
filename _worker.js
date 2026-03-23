@@ -1,6 +1,6 @@
 const WS_READY_STATE_OPEN = 1;
 const WS_READY_STATE_CLOSING = 2;
-const CF_FALLBACK_IPS = ['[2a00:1098:2b::1:6815:5881]'];
+const CF_FALLBACK_IPS = ['ProxyIP.CMLiussss.net'];// cm维护
 
 // 复用 TextEncoder，避免重复创建
 const encoder = new TextEncoder();
